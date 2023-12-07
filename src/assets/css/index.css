@@ -1,0 +1,21 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+:root{
+    --bkg-clr: rgb(178,186,205);
+    --blk-clr: rgb(20,33,57);
+}
+body{
+    width: 98%;
+    height: 98%;
+    background-color: var(--bkg-clr);
+
+}
+#app{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

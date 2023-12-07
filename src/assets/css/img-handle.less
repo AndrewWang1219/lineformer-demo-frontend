@@ -1,0 +1,87 @@
+.img{
+  flex: 0 080%;
+  width: 90%;
+  background: #fff;
+  border-radius: 32px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  &-add{
+    flex: 0 0 40%;
+    height: 75%;
+    background: #fff;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    &-png{
+      width: 90%;
+      height: 55%;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+    &-png:hover{
+      transform: scale(1.02);
+    }
+    &-button{
+      width: 90%;
+      height: 15%;
+      border-radius: 20px;
+      color: #fff;
+      font-size: 16px;
+      background: var(--blk-clr);
+      cursor: pointer;
+      transition: 0.2s;
+    }
+    &-button:hover{
+      font-size: 17px;
+    }
+
+  }// img-add
+  &-op{
+    flex: 0 0 50%;
+    height: 80%;
+    background: #fff;
+    border: 2px solid var(--blk-clr);
+    border-radius: 32px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+    &-status{
+      flex: 0 0 5%;
+      width: 80%;
+      color: var(--blk-clr);
+      display: flex;
+      justify-content: center;
+      cursor: default;
+    }
+    &-output{
+      flex: 0 0 80%;
+      width: 100%;
+      display: flex;
+      flex-flow: column;
+      justify-content: space-around;
+      align-items: center;
+      .table{
+        width: 50%;
+        color: var(--blk-clr);
+        overflow-y: scroll;
+        overflow-x: hidden;
+      }
+      &-button{
+        flex: 0 0 10%;
+        width: 60%;
+        border-radius: 20px;
+        color: var(--blk-clr);
+        font-size: 16px;
+        background: #fff;
+        cursor: pointer;
+        transition: 0.2s;
+      }
+      &-button:hover{
+        font-size: 17px;
+      }
+    }
+  }//img-op
+}
